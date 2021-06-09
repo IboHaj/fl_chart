@@ -122,7 +122,7 @@ class FlClipData with EquatableMixin {
 }
 
 /// It gives you the axis value and gets a String value based on it.
-typedef GetTitleFunction = Image Function(double value);
+typedef GetTitleFunction = AssetImage Function(double value);
 
 /// The default [SideTitles.getTitles] function.
 ///

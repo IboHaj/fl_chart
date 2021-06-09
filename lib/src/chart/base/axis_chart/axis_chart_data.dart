@@ -123,7 +123,7 @@ class AxisTitle with EquatableMixin {
   final bool showTitle;
 
   /// Determines the showing text.
-  final Image titleText;
+  final AssetImage titleText;
 
   /// Defines how much space it needed to draw.
   final double reservedSize;
@@ -151,7 +151,7 @@ class AxisTitle with EquatableMixin {
   /// [margin] determines margin of this title.
   AxisTitle({
     bool? showTitle,
-    Image? titleText,
+    AssetImage titleText,
     double? reservedSize,
     TextStyle? textStyle,
     TextDirection? textDirection,
